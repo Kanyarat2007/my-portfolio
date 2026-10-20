@@ -3,11 +3,11 @@ export const hero = {
   name: "กัลยรัตน์ ถิ่นหาญวงศ์",
   role: "Frontend, UX UI Designer",
   intro:
-    "นักศึกษาสาขาวิทยาการคอมพิวเตอร์และนวัตกรรมการพัฒนาซอฟต์แวร์ มหาวิทยาลัยศรีปทุม", // TODO
-  photo: "", // TODO: วางรูปในโฟลเดอร์ public/ แล้วใส่ เช่น "/me.jpg" (เว้นว่างไว้จะแสดงกรอบรูป)
+    "นักศึกษาสาขาวิทยาการคอมพิวเตอร์และนวัตกรรมการพัฒนาซอฟต์แวร์ มหาวิทยาลัยศรีปทุม",
+  photo: "",
 };
 
-/* ---------- เกี่ยวกับฉัน (เพิ่ม/ลบย่อหน้าได้) ---------- */
+/* ---------- เกี่ยวกับฉัน  ---------- */
 export const about = [
   "ฉันชื่อนางสาวกัลยรัตน์ ถิ่นหาญวงศ์",
   "นักศึกษาชั้นปีที่ 4 คณะเทคโนโลยีสารสนเทศ",
@@ -28,9 +28,7 @@ export const skills = [
   { group: "Database & Tools", items: ["MySQL", "MongoDB", "Docker", "n8n"] },
 ];
 
-/* ---------- ผลงาน ----------
-   ช่อง description / problem / solution / role / link ไม่ต้องการ
-   ลบหรือเว้นว่างได้ จะไม่แสดงบนหน้าเว็บ */
+/* ---------- ผลงาน ---------- */
 export const projects = [
   {
     title: "Slide Me App",
@@ -51,8 +49,8 @@ export const projects = [
     ],
     repo: "https://github.com/Kanyarat2007/SlideMeProject",
     images: [
-      "/projects/SlideMe1.png",
-      "/projects/SlideMe2.png",
+      "/my-portfolio/projects/SlideMe1.png",
+      "/my-portfolio/projects/SlideMe2.png",
     ],
   },
   {
@@ -80,11 +78,11 @@ export const projects = [
     ],
     repo: "https://github.com/Kanyarat2007/Postal-Service",
     images: [
-      "/projects/PostalService1.png",
-      "/projects/PostalService2.png",
-      "/projects/PostalService3.png",
-      "/projects/PostalService4.png",
-      "/projects/PostalService5.png",
+      "/my-portfolio/projects/PostalService1.png",
+      "/my-portfolio/projects/PostalService2.png",
+      "/my-portfolio/projects/PostalService3.png",
+      "/my-portfolio/projects/PostalService4.png",
+      "/my-portfolio/projects/PostalService5.png",
     ],
   },
   {
@@ -99,11 +97,11 @@ export const projects = [
     ],
     repo: "https://github.com/Kanyarat2007/Ma-An",
     images: [
-      "/projects/MaAn1.png",
-      "/projects/MaAn2.png",
-      "/projects/MaAn3.png",
-      "/projects/MaAn4.png",
-      "/projects/MaAn5.png",
+      "/my-portfolio/projects/MaAn1.png",
+      "/my-portfolio/projects/MaAn2.png",
+      "/my-portfolio/projects/MaAn3.png",
+      "/my-portfolio/projects/MaAn4.png",
+      "/my-portfolio/projects/MaAn5.png",
     ],
   },
   {
@@ -124,7 +122,7 @@ export const projects = [
       { label: "Backend Framework", items: ["FastAPI"] },
     ],
     repo: "https://github.com/Kanyarat2007/AI-Chatbot-JitArsa-PhaPai",
-    images: ["/projects/AIChatbot1.png"],
+    images: ["/my-portfolio/projects/AIChatbot1.png"],
   },
 ];
 
